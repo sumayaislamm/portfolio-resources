@@ -11,6 +11,9 @@
 .text_primary{
     color: #FD6E0A;
 }
+.secondary_bg{
+    background-color: #FFF8F3;
+}
 .dark_02{
     color: #474747;
 }
@@ -29,7 +32,15 @@
 .btn_primary:focus {
     outline: 2px solid rgb(96, 205, 23);  /* Custom focus style */
   }
-
+.section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section_description{
+    font-size: 18px;
+    color: #757575;
+}
 /* Background Image  */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -89,4 +100,33 @@ nav ul li a{
 }
 .banner_picture{
     width: 580px;
+}
+
+/* About Style  */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px ;
+    text-align: center;
+    margin-top: 100px;
+}
+.about_border{
+    border:  2px solid #181818 ;
+    padding: 2px ;
+    background-color: white;
+}
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+.item_descriptions{
+  font-weight: 600;
+}
+.item_title{
+    font-size: 18px;
+    color: #757575;
+}
+/* Main Styles  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }

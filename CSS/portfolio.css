@@ -9,10 +9,10 @@
 
   /* Shared Style  */
 .text_primary{
-    color: #FD6E0A;
+    color: #324c28;
 }
 .secondary_bg{
-    background-color: #FFF8F3;
+    background-color: #f4fff8;
 }
 .dark_02{
     color: #474747;
@@ -21,7 +21,7 @@
     color: #757575;
 }
 .btn_primary{
-   background-color: #FD6E0A;
+   background-color: #324c28;
    font-weight: bold;
    color: white;
    padding: 18px 35px;
@@ -30,7 +30,7 @@
    font-size: 20px;
 }
 .btn_primary:focus {
-    outline: 2px solid rgb(96, 205, 23);  /* Custom focus style */
+    outline: 3px solid rgb(0, 0, 0);  /* Custom focus style */
   }
 .section_title{
     font-size: 35px;
@@ -38,8 +38,9 @@
     color: #181818;
 }
 .section_description{
-    font-size: 18px;
+    font-size: 20px;
     color: #757575;
+    padding: 5px;
 }
 .text_center{
     
@@ -74,6 +75,7 @@ nav ul{
 nav ul li{
     list-style: none;
     margin-right: 50px;
+    font-size: 25px;
     
 }
 
@@ -146,8 +148,36 @@ nav ul li a{
 .skill_title{
     font-size: 20px;
 }
-.skill_picture{
 
+/* Resume section  */
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+.experience_description{
+    color: #757575;
+}
+.experience_sub_title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 0px;
+}
+.resume{
+    margin-bottom: 50px;
+}
+.resume_column_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.experience_title{
+    font-size: 25px;
+    font-weight: 600;
+    color: #181818;
 }
 /* Main Styles  */
 main{
@@ -156,4 +186,5 @@ main{
 }
 main section{
     margin-top: 130px;
+    gap: 24px;
 }

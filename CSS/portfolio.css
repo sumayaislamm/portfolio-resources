@@ -188,3 +188,52 @@ main section{
     margin-top: 130px;
     gap: 24px;
 }
+
+/* Footer Styles  */
+.section_of_footer{
+    display: flex;
+    gap: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 230px;
+}
+.section_footer{
+    width: 50%;
+}
+footer{
+    background-color: #f4fff8;
+    margin-top: 100px;
+}
+footer h3{
+    font-size: 35px;
+}
+footer p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px 5px 5px;
+}
+footer input[type="text"], footer input[type="email"] {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+footer textarea{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 18px; 
+}
